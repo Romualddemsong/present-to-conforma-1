@@ -32,7 +32,7 @@
     - Login to `Your GitHub Account`
     - Create a Repository called `DevSecOps-Realworld-CICD-Project`
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"dev-sec-ops-cicd-pipeline-project-one branch"`: https://github.com/awanmbandi/realworld-microservice-project.git
+    - Download the code in in this repository `"dev-sec-ops-cicd-pipeline-project-one branch"`: https://github.com/Romualddemsong/realworld-microservice-project.git
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
@@ -49,7 +49,7 @@
     - Once you sign up, you should have a page that looks like this...
     ![GitGuardian!](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/ererere.png)
 
-3) Create An IAM Profile/Role For The `Jenkins-CI` Server
+1) Create An IAM Profile/Role For The `Jenkins-CI` Server
 - Create an EC2 Service Role in IAM with AdministratorAccess Privilege 
 - Navigate to IAM
 ![IAM!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/zdocs/images/Screen%20Shot%202023-10-03%20at%206.20.44%20PM.png)
@@ -63,7 +63,7 @@
     - Role Name: `AWS-EC2-Administrator-Role`
     - Click `Create`
 
-4) Jenkins CI
+1) Jenkins CI
     - Create a Jenkins VM instance 
     - Name: `Jenkins-CI`
     - AMI: `Ubuntu 22.04`
@@ -74,7 +74,7 @@
         - What we actually need: `8080`, `9000` and `22` to `0.0.0.0/0`
     - Storage: Increase to `50 GB`
     - IAM instance profile: Select the `AWS-EC2FullAccess-Role`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-microservice-project/blob/dev-sec-ops-cicd-pipeline-project-one/installations.sh
+    - User data (Copy the following user data): https://github.com/Romualddemsong/realworld-microservice-project/blob/dev-sec-ops-cicd-pipeline-project-one/installations.sh
     - Launch Instance
 
 #### ⚠️ NOTE:ALERT ⚠️
